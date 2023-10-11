@@ -1,7 +1,7 @@
 export default defineAppConfig({
   alpine: {
     title: 'Chips',
-    description: 'The minimalist blog theme',
+    description: 'Digging deeper into software development',
     image: {
       src: '/social-card-preview.png',
       alt: 'An image showcasing my project.',
@@ -26,13 +26,16 @@ export default defineAppConfig({
       message: 'Follow me on' // string that will be displayed in the footer (leave empty or delete to disable)
     },
     socials: {
-      twitter: 'nuxtlabs',
-      instagram: 'atinuxt',
+      twitter: 'https://x.com/rootchps',
+      instagram: '',
+
       linkedin: {
         icon: 'uil:linkedin',
         label: 'LinkedIn',
         href: 'https://www.linkedin.com/company/nuxtlabs'
-      }
+      },
+
+      github: 'https://www.github.com/rootchips'
     },
     form: {
       successMessage: 'Message sent. Thank you!'
